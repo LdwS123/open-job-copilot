@@ -11,6 +11,8 @@ companies themselves publish (Ashby, Greenhouse, Lever), including many YC and a
 | [`runner/`](runner) | Local watcher + supervisor that feeds a queue to Claude-in-Chrome agents that fill forms **in your own logged-in browser** | your Claude plan |
 | [`boards.json`](boards.json) | The curated board list (ats + slug). PRs welcome | n/a |
 
+> Friends: start with [FRIENDS.md](FRIENDS.md) (5-minute setup with an onboarding agent).
+
 ## 1. Use the MCP server (2 minutes)
 
 ```bash
