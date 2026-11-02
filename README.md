@@ -7,7 +7,7 @@ companies themselves publish (Ashby, Greenhouse, Lever), including many YC and a
 | Part | What it does | Cost |
 |---|---|---|
 | [`mcp-server/`](mcp-server) | **MCP server**: ask Claude (or any MCP client) *"find me junior sales roles in Europe at YC startups"* and get live postings with apply links | free |
-| [`worker/`](worker) | **Cloudflare Worker**: watches ~790 boards 24/7 and queues *new* postings the minute they appear (be first to apply) | free plan |
+| [`worker/`](worker) | **Cloudflare Worker**: watches ~1,100 boards 24/7 and queues *new* postings the minute they appear (be first to apply) | free plan |
 | [`runner/`](runner) | Local watcher + supervisor that feeds a queue to Claude-in-Chrome agents that fill forms **in your own logged-in browser** | your Claude plan |
 | [`boards.json`](boards.json) | The curated board list (ats + slug). PRs welcome | n/a |
 
