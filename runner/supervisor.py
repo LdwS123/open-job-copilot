@@ -6,7 +6,7 @@
 Honest limit: throughput is bounded by your Claude plan's usage limits and by how fast forms can be
 filled in your own browser. More parallel agents just burn quota faster.
 """
-import json, os, subprocess, time, re, urllib.parse
+import json, os, subprocess, time, re, urllib.parse, unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MAXPAR = int(os.environ.get("MAXPAR", "3"))
@@ -28,8 +28,11 @@ ALLOWED_HOSTS = {"jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenho
                  "jobs.lever.co", "jobs.eu.lever.co"}
 
 def clean(x, n=120):
-    """Queue text originates from third-party job boards: strip control chars / newlines, cap length."""
-    return re.sub(r"[^\x20-\x7E\u00A0-\uFFFF]+", " ", str(x)).replace("|", "/").replace("<", "(").replace(">", ")").strip()[:n]
+    """Queue text originates from third-party job boards. NFKC-normalise (fullwidth brackets become ASCII), keep only
+    letters, digits, marks, spaces and basic punctuation, then neutralise the characters used as delimiters."""
+    t = unicodedata.normalize("NFKC", str(x))
+    t = "".join(ch if (unicodedata.category(ch)[0] in "LNM" or ch == " " or ch in ".,;:!?'\"()[]&+-_/@#%") else " " for ch in t)
+    return re.sub(r"\s+", " ", t).replace("|", "/").replace("<", "(").replace(">", ")").strip()[:n]
 
 URL_RE = re.compile(r"https://[A-Za-z0-9.-]+/[A-Za-z0-9._~%/?=&#:+-]*")
 
