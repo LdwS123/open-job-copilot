@@ -1,0 +1,11 @@
+node_modules/
+.dev.vars
+.wrangler/
+*.log
+queue.json
+worker_token
+profile.json
+config.json
+cv/
+*.pdf
+.env

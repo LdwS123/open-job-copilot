@@ -1,0 +1,8 @@
+{
+  "include": "sdr|bdr|business develop|account executive|customer success|growth|partnership|community",
+  "exclude": "senior|head of|director|vp|principal|staff|intern",
+  "bad_locations": "japan|india|singapore|australia|brazil|korea|china",
+  "tier1_locations": "paris|france|emea|europe|london|dublin|berlin|germany|amsterdam|madrid|lisbon|remote - europe",
+  "tier2_locations": "united states|canada|new york|san francisco|remote",
+  "poll_seconds": 300
+}

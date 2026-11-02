@@ -1,0 +1,15 @@
+{
+  "name": "open-job-copilot-mcp",
+  "version": "0.1.0",
+  "description": "Free MCP server to search live job postings straight from public ATS APIs (Ashby, Greenhouse, Lever). No API key, no account.",
+  "type": "module",
+  "bin": { "open-job-copilot-mcp": "index.js" },
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "test": "node --test test.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}

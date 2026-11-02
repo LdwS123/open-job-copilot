@@ -1,0 +1,10 @@
+{
+  "name": "job-watcher",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "triggers": { "crons": ["* * * * *"] },
+  "kv_namespaces": [
+    // run: npx wrangler kv namespace create STATE   and paste the id here
+    { "binding": "STATE", "id": "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+  ]
+}
