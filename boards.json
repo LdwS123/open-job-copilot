@@ -1,1354 +1,3162 @@
 [
-{
-"ats": "ashby",
-"slug": "11x"
-},
-{
-"ats": "ashby",
-"slug": "adept"
-},
-{
-"ats": "ashby",
-"slug": "airtable"
-},
-{
-"ats": "ashby",
-"slug": "airwallex"
-},
-{
-"ats": "ashby",
-"slug": "alan"
-},
-{
-"ats": "ashby",
-"slug": "algolia"
-},
-{
-"ats": "ashby",
-"slug": "alloy"
-},
-{
-"ats": "ashby",
-"slug": "alma"
-},
-{
-"ats": "ashby",
-"slug": "amplitude"
-},
-{
-"ats": "ashby",
-"slug": "anthropic"
-},
-{
-"ats": "ashby",
-"slug": "anyscale"
-},
-{
-"ats": "ashby",
-"slug": "apollo"
-},
-{
-"ats": "ashby",
-"slug": "artisan"
-},
-{
-"ats": "ashby",
-"slug": "ashby"
-},
-{
-"ats": "ashby",
-"slug": "attio"
-},
-{
-"ats": "ashby",
-"slug": "baseten"
-},
-{
-"ats": "ashby",
-"slug": "bland"
-},
-{
-"ats": "ashby",
-"slug": "brevo"
-},
-{
-"ats": "ashby",
-"slug": "brex"
-},
-{
-"ats": "ashby",
-"slug": "bubble"
-},
-{
-"ats": "ashby",
-"slug": "cal"
-},
-{
-"ats": "ashby",
-"slug": "captions"
-},
-{
-"ats": "ashby",
-"slug": "cerebras"
-},
-{
-"ats": "ashby",
-"slug": "character"
-},
-{
-"ats": "ashby",
-"slug": "checkout"
-},
-{
-"ats": "ashby",
-"slug": "clari"
-},
-{
-"ats": "ashby",
-"slug": "clay"
-},
-{
-"ats": "ashby",
-"slug": "clerk"
-},
-{
-"ats": "ashby",
-"slug": "coda"
-},
-{
-"ats": "ashby",
-"slug": "codeium"
-},
-{
-"ats": "ashby",
-"slug": "cognition"
-},
-{
-"ats": "ashby",
-"slug": "cohere"
-},
-{
-"ats": "ashby",
-"slug": "column"
-},
-{
-"ats": "ashby",
-"slug": "common-room"
-},
-{
-"ats": "ashby",
-"slug": "contentsquare"
-},
-{
-"ats": "ashby",
-"slug": "convex"
-},
-{
-"ats": "ashby",
-"slug": "crusoe"
-},
-{
-"ats": "ashby",
-"slug": "cursor"
-},
-{
-"ats": "ashby",
-"slug": "cursor-ai"
-},
-{
-"ats": "ashby",
-"slug": "decagon"
-},
-{
-"ats": "ashby",
-"slug": "deel"
-},
-{
-"ats": "ashby",
-"slug": "descript"
-},
-{
-"ats": "ashby",
-"slug": "doctolib"
-},
-{
-"ats": "ashby",
-"slug": "drata"
-},
-{
-"ats": "ashby",
-"slug": "dub"
-},
-{
-"ats": "ashby",
-"slug": "dust"
-},
-{
-"ats": "ashby",
-"slug": "elevenlabs"
-},
-{
-"ats": "ashby",
-"slug": "fireflies"
-},
-{
-"ats": "ashby",
-"slug": "folk"
-},
-{
-"ats": "ashby",
-"slug": "framer"
-},
-{
-"ats": "ashby",
-"slug": "gamma"
-},
-{
-"ats": "ashby",
-"slug": "glean"
-},
-{
-"ats": "ashby",
-"slug": "gong"
-},
-{
-"ats": "ashby",
-"slug": "granola"
-},
-{
-"ats": "ashby",
-"slug": "gusto"
-},
-{
-"ats": "ashby",
-"slug": "harvey"
-},
-{
-"ats": "ashby",
-"slug": "hcompany"
-},
-{
-"ats": "ashby",
-"slug": "hex"
-},
-{
-"ats": "ashby",
-"slug": "heygen"
-},
-{
-"ats": "ashby",
-"slug": "ideogram"
-},
-{
-"ats": "ashby",
-"slug": "incident-io"
-},
-{
-"ats": "ashby",
-"slug": "inngest"
-},
-{
-"ats": "ashby",
-"slug": "ironclad"
-},
-{
-"ats": "ashby",
-"slug": "kapwing"
-},
-{
-"ats": "ashby",
-"slug": "langchain"
-},
-{
-"ats": "ashby",
-"slug": "launchdarkly"
-},
-{
-"ats": "ashby",
-"slug": "ledger"
-},
-{
-"ats": "ashby",
-"slug": "lemlist"
-},
-{
-"ats": "ashby",
-"slug": "leonardo"
-},
-{
-"ats": "ashby",
-"slug": "lightricks"
-},
-{
-"ats": "ashby",
-"slug": "linear"
-},
-{
-"ats": "ashby",
-"slug": "llamaindex"
-},
-{
-"ats": "ashby",
-"slug": "loops"
-},
-{
-"ats": "ashby",
-"slug": "lovable"
-},
-{
-"ats": "ashby",
-"slug": "luma"
-},
-{
-"ats": "ashby",
-"slug": "magic"
-},
-{
-"ats": "ashby",
-"slug": "make"
-},
-{
-"ats": "ashby",
-"slug": "malt"
-},
-{
-"ats": "ashby",
-"slug": "meow"
-},
-{
-"ats": "ashby",
-"slug": "mercor"
-},
-{
-"ats": "ashby",
-"slug": "mercury"
-},
-{
-"ats": "ashby",
-"slug": "midjourney"
-},
-{
-"ats": "ashby",
-"slug": "mintlify"
-},
-{
-"ats": "ashby",
-"slug": "mirakl"
-},
-{
-"ats": "ashby",
-"slug": "miro"
-},
-{
-"ats": "ashby",
-"slug": "mistral"
-},
-{
-"ats": "ashby",
-"slug": "modal"
-},
-{
-"ats": "ashby",
-"slug": "monzo"
-},
-{
-"ats": "ashby",
-"slug": "mural"
-},
-{
-"ats": "ashby",
-"slug": "n8n"
-},
-{
-"ats": "ashby",
-"slug": "neon"
-},
-{
-"ats": "ashby",
-"slug": "notion"
-},
-{
-"ats": "ashby",
-"slug": "oneleet"
-},
-{
-"ats": "ashby",
-"slug": "openai"
-},
-{
-"ats": "ashby",
-"slug": "opusclip"
-},
-{
-"ats": "ashby",
-"slug": "otter"
-},
-{
-"ats": "ashby",
-"slug": "outreach"
-},
-{
-"ats": "ashby",
-"slug": "payfit"
-},
-{
-"ats": "ashby",
-"slug": "pennylane"
-},
-{
-"ats": "ashby",
-"slug": "perplexity-ai"
-},
-{
-"ats": "ashby",
-"slug": "persona"
-},
-{
-"ats": "ashby",
-"slug": "pigment"
-},
-{
-"ats": "ashby",
-"slug": "pika"
-},
-{
-"ats": "ashby",
-"slug": "pika-labs"
-},
-{
-"ats": "ashby",
-"slug": "pinecone"
-},
-{
-"ats": "ashby",
-"slug": "pitch"
-},
-{
-"ats": "ashby",
-"slug": "plaid"
-},
-{
-"ats": "ashby",
-"slug": "planetscale"
-},
-{
-"ats": "ashby",
-"slug": "poolside"
-},
-{
-"ats": "ashby",
-"slug": "posthog"
-},
-{
-"ats": "ashby",
-"slug": "propelauth"
-},
-{
-"ats": "ashby",
-"slug": "pylon"
-},
-{
-"ats": "ashby",
-"slug": "qonto"
-},
-{
-"ats": "ashby",
-"slug": "ramp"
-},
-{
-"ats": "ashby",
-"slug": "regie"
-},
-{
-"ats": "ashby",
-"slug": "reka"
-},
-{
-"ats": "ashby",
-"slug": "replit"
-},
-{
-"ats": "ashby",
-"slug": "resend"
-},
-{
-"ats": "ashby",
-"slug": "retool"
-},
-{
-"ats": "ashby",
-"slug": "revolut"
-},
-{
-"ats": "ashby",
-"slug": "rho"
-},
-{
-"ats": "ashby",
-"slug": "rippling"
-},
-{
-"ats": "ashby",
-"slug": "riverside"
-},
-{
-"ats": "ashby",
-"slug": "rogo"
-},
-{
-"ats": "ashby",
-"slug": "runway"
-},
-{
-"ats": "ashby",
-"slug": "salesloft"
-},
-{
-"ats": "ashby",
-"slug": "sardine"
-},
-{
-"ats": "ashby",
-"slug": "secureframe"
-},
-{
-"ats": "ashby",
-"slug": "sierra"
-},
-{
-"ats": "ashby",
-"slug": "snyk"
-},
-{
-"ats": "ashby",
-"slug": "sourcegraph"
-},
-{
-"ats": "ashby",
-"slug": "spendesk"
-},
-{
-"ats": "ashby",
-"slug": "stability"
-},
-{
-"ats": "ashby",
-"slug": "stytch"
-},
-{
-"ats": "ashby",
-"slug": "sumup"
-},
-{
-"ats": "ashby",
-"slug": "suno"
-},
-{
-"ats": "ashby",
-"slug": "supabase"
-},
-{
-"ats": "ashby",
-"slug": "swile"
-},
-{
-"ats": "ashby",
-"slug": "synthesia"
-},
-{
-"ats": "ashby",
-"slug": "synthflow"
-},
-{
-"ats": "ashby",
-"slug": "temporal"
-},
-{
-"ats": "ashby",
-"slug": "tide"
-},
-{
-"ats": "ashby",
-"slug": "tines"
-},
-{
-"ats": "ashby",
-"slug": "trigger-dev"
-},
-{
-"ats": "ashby",
-"slug": "trustpilot"
-},
-{
-"ats": "ashby",
-"slug": "turso"
-},
-{
-"ats": "ashby",
-"slug": "udio"
-},
-{
-"ats": "ashby",
-"slug": "unify"
-},
-{
-"ats": "ashby",
-"slug": "unit"
-},
-{
-"ats": "ashby",
-"slug": "val-town"
-},
-{
-"ats": "ashby",
-"slug": "vanta"
-},
-{
-"ats": "ashby",
-"slug": "vapi"
-},
-{
-"ats": "ashby",
-"slug": "veed"
-},
-{
-"ats": "ashby",
-"slug": "vercel"
-},
-{
-"ats": "ashby",
-"slug": "wayflyer"
-},
-{
-"ats": "ashby",
-"slug": "weaviate"
-},
-{
-"ats": "ashby",
-"slug": "webflow"
-},
-{
-"ats": "ashby",
-"slug": "whop"
-},
-{
-"ats": "ashby",
-"slug": "windsurf"
-},
-{
-"ats": "ashby",
-"slug": "wise"
-},
-{
-"ats": "ashby",
-"slug": "workato"
-},
-{
-"ats": "ashby",
-"slug": "workos"
-},
-{
-"ats": "ashby",
-"slug": "writer"
-},
-{
-"ats": "ashby",
-"slug": "zapier"
-},
-{
-"ats": "greenhouse",
-"slug": "1password"
-},
-{
-"ats": "greenhouse",
-"slug": "adyen"
-},
-{
-"ats": "greenhouse",
-"slug": "affirm"
-},
-{
-"ats": "greenhouse",
-"slug": "agicap"
-},
-{
-"ats": "greenhouse",
-"slug": "airbnb"
-},
-{
-"ats": "greenhouse",
-"slug": "airtable"
-},
-{
-"ats": "greenhouse",
-"slug": "alan"
-},
-{
-"ats": "greenhouse",
-"slug": "algolia"
-},
-{
-"ats": "greenhouse",
-"slug": "alloy"
-},
-{
-"ats": "greenhouse",
-"slug": "amplitude"
-},
-{
-"ats": "greenhouse",
-"slug": "ankorstore"
-},
-{
-"ats": "greenhouse",
-"slug": "anthropic"
-},
-{
-"ats": "greenhouse",
-"slug": "asana"
-},
-{
-"ats": "greenhouse",
-"slug": "atlassian"
-},
-{
-"ats": "greenhouse",
-"slug": "auth0"
-},
-{
-"ats": "greenhouse",
-"slug": "babylonhealth"
-},
-{
-"ats": "greenhouse",
-"slug": "backmarket"
-},
-{
-"ats": "greenhouse",
-"slug": "beamery"
-},
-{
-"ats": "greenhouse",
-"slug": "bitwarden"
-},
-{
-"ats": "greenhouse",
-"slug": "blablacar"
-},
-{
-"ats": "greenhouse",
-"slug": "bolt"
-},
-{
-"ats": "greenhouse",
-"slug": "braze"
-},
-{
-"ats": "greenhouse",
-"slug": "brex"
-},
-{
-"ats": "greenhouse",
-"slug": "bumble"
-},
-{
-"ats": "greenhouse",
-"slug": "canva"
-},
-{
-"ats": "greenhouse",
-"slug": "cazoo"
-},
-{
-"ats": "greenhouse",
-"slug": "celonis"
-},
-{
-"ats": "greenhouse",
-"slug": "checkoutcom"
-},
-{
-"ats": "greenhouse",
-"slug": "cleo"
-},
-{
-"ats": "greenhouse",
-"slug": "cloudflare"
-},
-{
-"ats": "greenhouse",
-"slug": "coinbase"
-},
-{
-"ats": "greenhouse",
-"slug": "contentful"
-},
-{
-"ats": "greenhouse",
-"slug": "contentsquare"
-},
-{
-"ats": "greenhouse",
-"slug": "cresta"
-},
-{
-"ats": "greenhouse",
-"slug": "criteo"
-},
-{
-"ats": "greenhouse",
-"slug": "crowdstrike"
-},
-{
-"ats": "greenhouse",
-"slug": "databricks"
-},
-{
-"ats": "greenhouse",
-"slug": "datadog"
-},
-{
-"ats": "greenhouse",
-"slug": "dataiku"
-},
-{
-"ats": "greenhouse",
-"slug": "deezer"
-},
-{
-"ats": "greenhouse",
-"slug": "deliveroo"
-},
-{
-"ats": "greenhouse",
-"slug": "descript"
-},
-{
-"ats": "greenhouse",
-"slug": "discord"
-},
-{
-"ats": "greenhouse",
-"slug": "doctolib"
-},
-{
-"ats": "greenhouse",
-"slug": "dropbox"
-},
-{
-"ats": "greenhouse",
-"slug": "ebury"
-},
-{
-"ats": "greenhouse",
-"slug": "elastic"
-},
-{
-"ats": "greenhouse",
-"slug": "faire"
-},
-{
-"ats": "greenhouse",
-"slug": "figma"
-},
-{
-"ats": "greenhouse",
-"slug": "flexport"
-},
-{
-"ats": "greenhouse",
-"slug": "getaround"
-},
-{
-"ats": "greenhouse",
-"slug": "getyourguide"
-},
-{
-"ats": "greenhouse",
-"slug": "gitlab"
-},
-{
-"ats": "greenhouse",
-"slug": "gocardless"
-},
-{
-"ats": "greenhouse",
-"slug": "gong"
-},
-{
-"ats": "greenhouse",
-"slug": "gusto"
-},
-{
-"ats": "greenhouse",
-"slug": "hashicorp"
-},
-{
-"ats": "greenhouse",
-"slug": "hellofresh"
-},
-{
-"ats": "greenhouse",
-"slug": "heygen"
-},
-{
-"ats": "greenhouse",
-"slug": "hubspot"
-},
-{
-"ats": "greenhouse",
-"slug": "instacart"
-},
-{
-"ats": "greenhouse",
-"slug": "intercom"
-},
-{
-"ats": "greenhouse",
-"slug": "klarna"
-},
-{
-"ats": "greenhouse",
-"slug": "lattice"
-},
-{
-"ats": "greenhouse",
-"slug": "ledger"
-},
-{
-"ats": "greenhouse",
-"slug": "lendable"
-},
-{
-"ats": "greenhouse",
-"slug": "linear"
-},
-{
-"ats": "greenhouse",
-"slug": "lithic"
-},
-{
-"ats": "greenhouse",
-"slug": "lovable"
-},
-{
-"ats": "greenhouse",
-"slug": "lydia"
-},
-{
-"ats": "greenhouse",
-"slug": "lyft"
-},
-{
-"ats": "greenhouse",
-"slug": "manomano"
-},
-{
-"ats": "greenhouse",
-"slug": "mercury"
-},
-{
-"ats": "greenhouse",
-"slug": "mirakl"
-},
-{
-"ats": "greenhouse",
-"slug": "mixpanel"
-},
-{
-"ats": "greenhouse",
-"slug": "mollie"
-},
-{
-"ats": "greenhouse",
-"slug": "mongodb"
-},
-{
-"ats": "greenhouse",
-"slug": "monzo"
-},
-{
-"ats": "greenhouse",
-"slug": "moonpig"
-},
-{
-"ats": "greenhouse",
-"slug": "multiverse"
-},
-{
-"ats": "greenhouse",
-"slug": "n26"
-},
-{
-"ats": "greenhouse",
-"slug": "newrelic"
-},
-{
-"ats": "greenhouse",
-"slug": "notion"
-},
-{
-"ats": "greenhouse",
-"slug": "oaknorth"
-},
-{
-"ats": "greenhouse",
-"slug": "ocadotechnology"
-},
-{
-"ats": "greenhouse",
-"slug": "octopusenergy"
-},
-{
-"ats": "greenhouse",
-"slug": "okta"
-},
-{
-"ats": "greenhouse",
-"slug": "onetrust"
-},
-{
-"ats": "greenhouse",
-"slug": "ornikar"
-},
-{
-"ats": "greenhouse",
-"slug": "ovhcloud"
-},
-{
-"ats": "greenhouse",
-"slug": "owkin"
-},
-{
-"ats": "greenhouse",
-"slug": "paddle"
-},
-{
-"ats": "greenhouse",
-"slug": "pagerduty"
-},
-{
-"ats": "greenhouse",
-"slug": "payfit"
-},
-{
-"ats": "greenhouse",
-"slug": "pennylane"
-},
-{
-"ats": "greenhouse",
-"slug": "personio"
-},
-{
-"ats": "greenhouse",
-"slug": "pinterest"
-},
-{
-"ats": "greenhouse",
-"slug": "plaid"
-},
-{
-"ats": "greenhouse",
-"slug": "planetscale"
-},
-{
-"ats": "greenhouse",
-"slug": "proton"
-},
-{
-"ats": "greenhouse",
-"slug": "qonto"
-},
-{
-"ats": "greenhouse",
-"slug": "ramp"
-},
-{
-"ats": "greenhouse",
-"slug": "reddit"
-},
-{
-"ats": "greenhouse",
-"slug": "regie"
-},
-{
-"ats": "greenhouse",
-"slug": "revolut"
-},
-{
-"ats": "greenhouse",
-"slug": "robinhood"
-},
-{
-"ats": "greenhouse",
-"slug": "salesloft"
-},
-{
-"ats": "greenhouse",
-"slug": "samsara"
-},
-{
-"ats": "greenhouse",
-"slug": "sanity"
-},
-{
-"ats": "greenhouse",
-"slug": "scaleai"
-},
-{
-"ats": "greenhouse",
-"slug": "scaleway"
-},
-{
-"ats": "greenhouse",
-"slug": "segment"
-},
-{
-"ats": "greenhouse",
-"slug": "sendbird"
-},
-{
-"ats": "greenhouse",
-"slug": "shopify"
-},
-{
-"ats": "greenhouse",
-"slug": "snowflake"
-},
-{
-"ats": "greenhouse",
-"slug": "sorare"
-},
-{
-"ats": "greenhouse",
-"slug": "spendesk"
-},
-{
-"ats": "greenhouse",
-"slug": "splunk"
-},
-{
-"ats": "greenhouse",
-"slug": "spotify"
-},
-{
-"ats": "greenhouse",
-"slug": "sprinklr"
-},
-{
-"ats": "greenhouse",
-"slug": "stripe"
-},
-{
-"ats": "greenhouse",
-"slug": "sumologic"
-},
-{
-"ats": "greenhouse",
-"slug": "swile"
-},
-{
-"ats": "greenhouse",
-"slug": "thoughtmachine"
-},
-{
-"ats": "greenhouse",
-"slug": "trade-republic"
-},
-{
-"ats": "greenhouse",
-"slug": "traderepublic"
-},
-{
-"ats": "greenhouse",
-"slug": "trustpilot"
-},
-{
-"ats": "greenhouse",
-"slug": "twilio"
-},
-{
-"ats": "greenhouse",
-"slug": "typeface"
-},
-{
-"ats": "greenhouse",
-"slug": "uber"
-},
-{
-"ats": "greenhouse",
-"slug": "ubisoft"
-},
-{
-"ats": "greenhouse",
-"slug": "veepee"
-},
-{
-"ats": "greenhouse",
-"slug": "vercel"
-},
-{
-"ats": "greenhouse",
-"slug": "vestiairecollective"
-},
-{
-"ats": "greenhouse",
-"slug": "voodoo"
-},
-{
-"ats": "greenhouse",
-"slug": "wayve"
-},
-{
-"ats": "greenhouse",
-"slug": "webflow"
-},
-{
-"ats": "greenhouse",
-"slug": "zendesk"
-},
-{
-"ats": "greenhouse",
-"slug": "zscaler"
-},
-{
-"ats": "lever",
-"slug": "aircall"
-},
-{
-"ats": "lever",
-"slug": "alloy"
-},
-{
-"ats": "lever",
-"slug": "backmarket"
-},
-{
-"ats": "lever",
-"slug": "blablacar"
-},
-{
-"ats": "lever",
-"slug": "contentsquare"
-},
-{
-"ats": "lever",
-"slug": "criteo"
-},
-{
-"ats": "lever",
-"slug": "dataiku"
-},
-{
-"ats": "lever",
-"slug": "doctolib"
-},
-{
-"ats": "lever",
-"slug": "ivalua"
-},
-{
-"ats": "lever",
-"slug": "jobteaser"
-},
-{
-"ats": "lever",
-"slug": "kpler"
-},
-{
-"ats": "lever",
-"slug": "ledger"
-},
-{
-"ats": "lever",
-"slug": "lemlist"
-},
-{
-"ats": "lever",
-"slug": "lucca"
-},
-{
-"ats": "lever",
-"slug": "lydia"
-},
-{
-"ats": "lever",
-"slug": "malt"
-},
-{
-"ats": "lever",
-"slug": "mirakl"
-},
-{
-"ats": "lever",
-"slug": "mistral"
-},
-{
-"ats": "lever",
-"slug": "neon"
-},
-{
-"ats": "lever",
-"slug": "netflix"
-},
-{
-"ats": "lever",
-"slug": "ornikar"
-},
-{
-"ats": "lever",
-"slug": "outreach"
-},
-{
-"ats": "lever",
-"slug": "palantir"
-},
-{
-"ats": "lever",
-"slug": "payfit"
-},
-{
-"ats": "lever",
-"slug": "pigment"
-},
-{
-"ats": "lever",
-"slug": "qonto"
-},
-{
-"ats": "lever",
-"slug": "secureframe"
-},
-{
-"ats": "lever",
-"slug": "sidetrade"
-},
-{
-"ats": "lever",
-"slug": "spendesk"
-},
-{
-"ats": "lever",
-"slug": "spotify"
-},
-{
-"ats": "lever",
-"slug": "swile"
-},
-{
-"ats": "lever",
-"slug": "unify"
-},
-{
-"ats": "lever",
-"slug": "vinted"
-},
-{
-"ats": "lever",
-"slug": "voodoo"
-},
-{
-"ats": "lever",
-"slug": "welcometothejungle"
-}
+ {
+  "ats": "ashby",
+  "slug": "11x"
+ },
+ {
+  "ats": "ashby",
+  "slug": "adept"
+ },
+ {
+  "ats": "ashby",
+  "slug": "airtable"
+ },
+ {
+  "ats": "ashby",
+  "slug": "airwallex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "alan"
+ },
+ {
+  "ats": "ashby",
+  "slug": "algolia"
+ },
+ {
+  "ats": "ashby",
+  "slug": "alloy"
+ },
+ {
+  "ats": "ashby",
+  "slug": "alma"
+ },
+ {
+  "ats": "ashby",
+  "slug": "amplitude"
+ },
+ {
+  "ats": "ashby",
+  "slug": "anthropic"
+ },
+ {
+  "ats": "ashby",
+  "slug": "anyscale"
+ },
+ {
+  "ats": "ashby",
+  "slug": "apollo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "artisan"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ashby"
+ },
+ {
+  "ats": "ashby",
+  "slug": "attio"
+ },
+ {
+  "ats": "ashby",
+  "slug": "baseten"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bland"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brevo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bubble"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "captions"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cerebras"
+ },
+ {
+  "ats": "ashby",
+  "slug": "character"
+ },
+ {
+  "ats": "ashby",
+  "slug": "checkout"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clari"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clay"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clerk"
+ },
+ {
+  "ats": "ashby",
+  "slug": "coda"
+ },
+ {
+  "ats": "ashby",
+  "slug": "codeium"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cognition"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cohere"
+ },
+ {
+  "ats": "ashby",
+  "slug": "column"
+ },
+ {
+  "ats": "ashby",
+  "slug": "common-room"
+ },
+ {
+  "ats": "ashby",
+  "slug": "contentsquare"
+ },
+ {
+  "ats": "ashby",
+  "slug": "convex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "crusoe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cursor"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cursor-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "decagon"
+ },
+ {
+  "ats": "ashby",
+  "slug": "deel"
+ },
+ {
+  "ats": "ashby",
+  "slug": "descript"
+ },
+ {
+  "ats": "ashby",
+  "slug": "doctolib"
+ },
+ {
+  "ats": "ashby",
+  "slug": "drata"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dub"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dust"
+ },
+ {
+  "ats": "ashby",
+  "slug": "elevenlabs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fireflies"
+ },
+ {
+  "ats": "ashby",
+  "slug": "folk"
+ },
+ {
+  "ats": "ashby",
+  "slug": "framer"
+ },
+ {
+  "ats": "ashby",
+  "slug": "gamma"
+ },
+ {
+  "ats": "ashby",
+  "slug": "glean"
+ },
+ {
+  "ats": "ashby",
+  "slug": "gong"
+ },
+ {
+  "ats": "ashby",
+  "slug": "granola"
+ },
+ {
+  "ats": "ashby",
+  "slug": "gusto"
+ },
+ {
+  "ats": "ashby",
+  "slug": "harvey"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hcompany"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "heygen"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ideogram"
+ },
+ {
+  "ats": "ashby",
+  "slug": "incident-io"
+ },
+ {
+  "ats": "ashby",
+  "slug": "inngest"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ironclad"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kapwing"
+ },
+ {
+  "ats": "ashby",
+  "slug": "langchain"
+ },
+ {
+  "ats": "ashby",
+  "slug": "launchdarkly"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ledger"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lemlist"
+ },
+ {
+  "ats": "ashby",
+  "slug": "leonardo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lightricks"
+ },
+ {
+  "ats": "ashby",
+  "slug": "linear"
+ },
+ {
+  "ats": "ashby",
+  "slug": "llamaindex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "loops"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lovable"
+ },
+ {
+  "ats": "ashby",
+  "slug": "luma"
+ },
+ {
+  "ats": "ashby",
+  "slug": "magic"
+ },
+ {
+  "ats": "ashby",
+  "slug": "make"
+ },
+ {
+  "ats": "ashby",
+  "slug": "malt"
+ },
+ {
+  "ats": "ashby",
+  "slug": "meow"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mercor"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mercury"
+ },
+ {
+  "ats": "ashby",
+  "slug": "midjourney"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mintlify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mirakl"
+ },
+ {
+  "ats": "ashby",
+  "slug": "miro"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mistral"
+ },
+ {
+  "ats": "ashby",
+  "slug": "modal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "monzo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mural"
+ },
+ {
+  "ats": "ashby",
+  "slug": "n8n"
+ },
+ {
+  "ats": "ashby",
+  "slug": "neon"
+ },
+ {
+  "ats": "ashby",
+  "slug": "notion"
+ },
+ {
+  "ats": "ashby",
+  "slug": "oneleet"
+ },
+ {
+  "ats": "ashby",
+  "slug": "openai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "opusclip"
+ },
+ {
+  "ats": "ashby",
+  "slug": "otter"
+ },
+ {
+  "ats": "ashby",
+  "slug": "outreach"
+ },
+ {
+  "ats": "ashby",
+  "slug": "payfit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pennylane"
+ },
+ {
+  "ats": "ashby",
+  "slug": "perplexity-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "persona"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pigment"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pika"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pika-labs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pinecone"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pitch"
+ },
+ {
+  "ats": "ashby",
+  "slug": "plaid"
+ },
+ {
+  "ats": "ashby",
+  "slug": "planetscale"
+ },
+ {
+  "ats": "ashby",
+  "slug": "poolside"
+ },
+ {
+  "ats": "ashby",
+  "slug": "posthog"
+ },
+ {
+  "ats": "ashby",
+  "slug": "propelauth"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pylon"
+ },
+ {
+  "ats": "ashby",
+  "slug": "qonto"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ramp"
+ },
+ {
+  "ats": "ashby",
+  "slug": "regie"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reka"
+ },
+ {
+  "ats": "ashby",
+  "slug": "replit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "resend"
+ },
+ {
+  "ats": "ashby",
+  "slug": "retool"
+ },
+ {
+  "ats": "ashby",
+  "slug": "revolut"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rho"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rippling"
+ },
+ {
+  "ats": "ashby",
+  "slug": "riverside"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rogo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "runway"
+ },
+ {
+  "ats": "ashby",
+  "slug": "salesloft"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sardine"
+ },
+ {
+  "ats": "ashby",
+  "slug": "secureframe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sierra"
+ },
+ {
+  "ats": "ashby",
+  "slug": "snyk"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sourcegraph"
+ },
+ {
+  "ats": "ashby",
+  "slug": "spendesk"
+ },
+ {
+  "ats": "ashby",
+  "slug": "stability"
+ },
+ {
+  "ats": "ashby",
+  "slug": "stytch"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sumup"
+ },
+ {
+  "ats": "ashby",
+  "slug": "suno"
+ },
+ {
+  "ats": "ashby",
+  "slug": "supabase"
+ },
+ {
+  "ats": "ashby",
+  "slug": "swile"
+ },
+ {
+  "ats": "ashby",
+  "slug": "synthesia"
+ },
+ {
+  "ats": "ashby",
+  "slug": "synthflow"
+ },
+ {
+  "ats": "ashby",
+  "slug": "temporal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tide"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tines"
+ },
+ {
+  "ats": "ashby",
+  "slug": "trigger-dev"
+ },
+ {
+  "ats": "ashby",
+  "slug": "trustpilot"
+ },
+ {
+  "ats": "ashby",
+  "slug": "turso"
+ },
+ {
+  "ats": "ashby",
+  "slug": "udio"
+ },
+ {
+  "ats": "ashby",
+  "slug": "unify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "unit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "val-town"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vanta"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vapi"
+ },
+ {
+  "ats": "ashby",
+  "slug": "veed"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vercel"
+ },
+ {
+  "ats": "ashby",
+  "slug": "wayflyer"
+ },
+ {
+  "ats": "ashby",
+  "slug": "weaviate"
+ },
+ {
+  "ats": "ashby",
+  "slug": "webflow"
+ },
+ {
+  "ats": "ashby",
+  "slug": "whop"
+ },
+ {
+  "ats": "ashby",
+  "slug": "windsurf"
+ },
+ {
+  "ats": "ashby",
+  "slug": "wise"
+ },
+ {
+  "ats": "ashby",
+  "slug": "workato"
+ },
+ {
+  "ats": "ashby",
+  "slug": "workos"
+ },
+ {
+  "ats": "ashby",
+  "slug": "writer"
+ },
+ {
+  "ats": "ashby",
+  "slug": "zapier"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "1password"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "adyen"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "affirm"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "agicap"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "airbnb"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "airtable"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "alan"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "algolia"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "alloy"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "amplitude"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ankorstore"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "anthropic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "asana"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "atlassian"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "auth0"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "babylonhealth"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "backmarket"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "beamery"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "bitwarden"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "blablacar"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "bolt"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "braze"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "brex"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "bumble"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "canva"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "cazoo"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "celonis"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "checkoutcom"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "cleo"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "cloudflare"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "coinbase"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "contentful"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "contentsquare"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "cresta"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "criteo"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "crowdstrike"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "databricks"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "datadog"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "dataiku"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "deezer"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "deliveroo"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "descript"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "discord"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "doctolib"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "dropbox"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ebury"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "elastic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "faire"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "figma"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "flexport"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "getaround"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "getyourguide"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "gitlab"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "gocardless"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "gong"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "gusto"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "hashicorp"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "hellofresh"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "heygen"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "hubspot"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "instacart"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "intercom"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "klarna"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lattice"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ledger"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lendable"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "linear"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lithic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lovable"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lydia"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lyft"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "manomano"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "mercury"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "mirakl"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "mixpanel"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "mollie"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "mongodb"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "monzo"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "moonpig"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "multiverse"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "n26"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "newrelic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "notion"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "oaknorth"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ocadotechnology"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "octopusenergy"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "okta"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "onetrust"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ornikar"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ovhcloud"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "owkin"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "paddle"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "pagerduty"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "payfit"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "pennylane"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "personio"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "pinterest"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "plaid"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "planetscale"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "proton"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "qonto"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ramp"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "reddit"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "regie"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "revolut"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "robinhood"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "salesloft"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "samsara"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "sanity"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "scaleai"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "scaleway"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "segment"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "sendbird"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "shopify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "snowflake"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "sorare"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "spendesk"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "splunk"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "spotify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "sprinklr"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "stripe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "sumologic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "swile"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "thoughtmachine"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "trade-republic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "traderepublic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "trustpilot"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "twilio"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "typeface"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "uber"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ubisoft"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "veepee"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "vercel"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "vestiairecollective"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "voodoo"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "wayve"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "webflow"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "zendesk"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "zscaler"
+ },
+ {
+  "ats": "lever",
+  "slug": "aircall"
+ },
+ {
+  "ats": "lever",
+  "slug": "alloy"
+ },
+ {
+  "ats": "lever",
+  "slug": "backmarket"
+ },
+ {
+  "ats": "lever",
+  "slug": "blablacar"
+ },
+ {
+  "ats": "lever",
+  "slug": "contentsquare"
+ },
+ {
+  "ats": "lever",
+  "slug": "criteo"
+ },
+ {
+  "ats": "lever",
+  "slug": "dataiku"
+ },
+ {
+  "ats": "lever",
+  "slug": "doctolib"
+ },
+ {
+  "ats": "lever",
+  "slug": "ivalua"
+ },
+ {
+  "ats": "lever",
+  "slug": "jobteaser"
+ },
+ {
+  "ats": "lever",
+  "slug": "kpler"
+ },
+ {
+  "ats": "lever",
+  "slug": "ledger"
+ },
+ {
+  "ats": "lever",
+  "slug": "lemlist"
+ },
+ {
+  "ats": "lever",
+  "slug": "lucca"
+ },
+ {
+  "ats": "lever",
+  "slug": "lydia"
+ },
+ {
+  "ats": "lever",
+  "slug": "malt"
+ },
+ {
+  "ats": "lever",
+  "slug": "mirakl"
+ },
+ {
+  "ats": "lever",
+  "slug": "mistral"
+ },
+ {
+  "ats": "lever",
+  "slug": "neon"
+ },
+ {
+  "ats": "lever",
+  "slug": "netflix"
+ },
+ {
+  "ats": "lever",
+  "slug": "ornikar"
+ },
+ {
+  "ats": "lever",
+  "slug": "outreach"
+ },
+ {
+  "ats": "lever",
+  "slug": "palantir"
+ },
+ {
+  "ats": "lever",
+  "slug": "payfit"
+ },
+ {
+  "ats": "lever",
+  "slug": "pigment"
+ },
+ {
+  "ats": "lever",
+  "slug": "qonto"
+ },
+ {
+  "ats": "lever",
+  "slug": "secureframe"
+ },
+ {
+  "ats": "lever",
+  "slug": "sidetrade"
+ },
+ {
+  "ats": "lever",
+  "slug": "spendesk"
+ },
+ {
+  "ats": "lever",
+  "slug": "spotify"
+ },
+ {
+  "ats": "lever",
+  "slug": "swile"
+ },
+ {
+  "ats": "lever",
+  "slug": "unify"
+ },
+ {
+  "ats": "lever",
+  "slug": "vinted"
+ },
+ {
+  "ats": "lever",
+  "slug": "voodoo"
+ },
+ {
+  "ats": "lever",
+  "slug": "welcometothejungle"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "pulse"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "agency"
+ },
+ {
+  "ats": "ashby",
+  "slug": "legora"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "astranis"
+ },
+ {
+  "ats": "ashby",
+  "slug": "legionhealth"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "clara"
+ },
+ {
+  "ats": "ashby",
+  "slug": "finni-health"
+ },
+ {
+  "ats": "ashby",
+  "slug": "trm-labs"
+ },
+ {
+  "ats": "lever",
+  "slug": "aleph"
+ },
+ {
+  "ats": "ashby",
+  "slug": "zip"
+ },
+ {
+  "ats": "ashby",
+  "slug": "billiontoone"
+ },
+ {
+  "ats": "ashby",
+  "slug": "deepgram"
+ },
+ {
+  "ats": "lever",
+  "slug": "hive"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "alpaca"
+ },
+ {
+  "ats": "ashby",
+  "slug": "overview"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "humaninterest"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "instawork"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tailor"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "apolloio"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "axle"
+ },
+ {
+  "ats": "lever",
+  "slug": "meesho"
+ },
+ {
+  "ats": "ashby",
+  "slug": "campfire"
+ },
+ {
+  "ats": "ashby",
+  "slug": "gigs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fieldguide"
+ },
+ {
+  "ats": "ashby",
+  "slug": "twenty"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "checkr"
+ },
+ {
+  "ats": "ashby",
+  "slug": "stepful"
+ },
+ {
+  "ats": "ashby",
+  "slug": "afterquery"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "maymobility"
+ },
+ {
+  "ats": "ashby",
+  "slug": "roboflow"
+ },
+ {
+  "ats": "ashby",
+  "slug": "voize"
+ },
+ {
+  "ats": "ashby",
+  "slug": "astro-mechanica"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clipboard"
+ },
+ {
+  "ats": "ashby",
+  "slug": "confido"
+ },
+ {
+  "ats": "ashby",
+  "slug": "juicebox"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hud"
+ },
+ {
+  "ats": "ashby",
+  "slug": "nox-metals"
+ },
+ {
+  "ats": "ashby",
+  "slug": "encord"
+ },
+ {
+  "ats": "ashby",
+  "slug": "arq"
+ },
+ {
+  "ats": "ashby",
+  "slug": "permitflow"
+ },
+ {
+  "ats": "ashby",
+  "slug": "harperinsure"
+ },
+ {
+  "ats": "ashby",
+  "slug": "eightsleep"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reducto"
+ },
+ {
+  "ats": "ashby",
+  "slug": "adaptyv"
+ },
+ {
+  "ats": "ashby",
+  "slug": "speak"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kalshi"
+ },
+ {
+  "ats": "ashby",
+  "slug": "taktile"
+ },
+ {
+  "ats": "ashby",
+  "slug": "broccoli"
+ },
+ {
+  "ats": "ashby",
+  "slug": "outset"
+ },
+ {
+  "ats": "ashby",
+  "slug": "moss"
+ },
+ {
+  "ats": "ashby",
+  "slug": "versemedical"
+ },
+ {
+  "ats": "ashby",
+  "slug": "candidhealth"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "prolific"
+ },
+ {
+  "ats": "ashby",
+  "slug": "firecrawl"
+ },
+ {
+  "ats": "lever",
+  "slug": "finn"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "hackerrank"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vetcove"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "momentic"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tennr"
+ },
+ {
+  "ats": "ashby",
+  "slug": "weave"
+ },
+ {
+  "ats": "lever",
+  "slug": "canarytechnologies"
+ },
+ {
+  "ats": "ashby",
+  "slug": "shepherd"
+ },
+ {
+  "ats": "ashby",
+  "slug": "parallel"
+ },
+ {
+  "ats": "ashby",
+  "slug": "latent"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rivet"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "flex"
+ },
+ {
+  "ats": "lever",
+  "slug": "captivateiq"
+ },
+ {
+  "ats": "ashby",
+  "slug": "curri"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mesh"
+ },
+ {
+  "ats": "lever",
+  "slug": "tryriot"
+ },
+ {
+  "ats": "ashby",
+  "slug": "nash"
+ },
+ {
+  "ats": "ashby",
+  "slug": "numeral"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "odeko"
+ },
+ {
+  "ats": "lever",
+  "slug": "porter"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "icarus"
+ },
+ {
+  "ats": "ashby",
+  "slug": "gecko-robotics"
+ },
+ {
+  "ats": "ashby",
+  "slug": "retell-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "blacksmith"
+ },
+ {
+  "ats": "ashby",
+  "slug": "humanarchive"
+ },
+ {
+  "ats": "ashby",
+  "slug": "padlet"
+ },
+ {
+  "ats": "ashby",
+  "slug": "radar"
+ },
+ {
+  "ats": "lever",
+  "slug": "netomi"
+ },
+ {
+  "ats": "ashby",
+  "slug": "avoca"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vitalize"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ginkgobioworks"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "xendit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "revenuecat"
+ },
+ {
+  "ats": "ashby",
+  "slug": "middesk"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tavus"
+ },
+ {
+  "ats": "ashby",
+  "slug": "quindar"
+ },
+ {
+  "ats": "ashby",
+  "slug": "aiprise"
+ },
+ {
+  "ats": "ashby",
+  "slug": "greptile"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "hazel"
+ },
+ {
+  "ats": "ashby",
+  "slug": "claimsorted"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "goatgroup"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "assemblyai"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "nabis"
+ },
+ {
+  "ats": "ashby",
+  "slug": "shortstory"
+ },
+ {
+  "ats": "lever",
+  "slug": "fampay"
+ },
+ {
+  "ats": "ashby",
+  "slug": "aios"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "coast"
+ },
+ {
+  "ats": "ashby",
+  "slug": "chariot"
+ },
+ {
+  "ats": "ashby",
+  "slug": "phonely"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kastle"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sygaldry-technologies"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rescale"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "qventus"
+ },
+ {
+  "ats": "lever",
+  "slug": "snappr"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "swayable"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "ophelia"
+ },
+ {
+  "ats": "ashby",
+  "slug": "homebase"
+ },
+ {
+  "ats": "ashby",
+  "slug": "metriport"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kombo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "solveintelligence"
+ },
+ {
+  "ats": "ashby",
+  "slug": "flai"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "openwork"
+ },
+ {
+  "ats": "ashby",
+  "slug": "luminai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "abacum"
+ },
+ {
+  "ats": "lever",
+  "slug": "gridware"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mach9"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sphere"
+ },
+ {
+  "ats": "ashby",
+  "slug": "codes-health"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "axiom"
+ },
+ {
+  "ats": "ashby",
+  "slug": "uplane"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pocket"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hedge"
+ },
+ {
+  "ats": "ashby",
+  "slug": "camber"
+ },
+ {
+  "ats": "ashby",
+  "slug": "turion-space"
+ },
+ {
+  "ats": "ashby",
+  "slug": "garage"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pointone"
+ },
+ {
+  "ats": "ashby",
+  "slug": "runtrellis"
+ },
+ {
+  "ats": "ashby",
+  "slug": "telli"
+ },
+ {
+  "ats": "ashby",
+  "slug": "triomics"
+ },
+ {
+  "ats": "ashby",
+  "slug": "odys-aviation"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sieve"
+ },
+ {
+  "ats": "ashby",
+  "slug": "novig"
+ },
+ {
+  "ats": "ashby",
+  "slug": "david-ai"
+ },
+ {
+  "ats": "lever",
+  "slug": "tovala"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "pelago"
+ },
+ {
+  "ats": "lever",
+  "slug": "mytos"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "prodigal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "junction"
+ },
+ {
+  "ats": "ashby",
+  "slug": "signoz"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ziina"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bree"
+ },
+ {
+  "ats": "ashby",
+  "slug": "charge-robotics"
+ },
+ {
+  "ats": "ashby",
+  "slug": "spade"
+ },
+ {
+  "ats": "ashby",
+  "slug": "salient"
+ },
+ {
+  "ats": "ashby",
+  "slug": "firstwork"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lucis"
+ },
+ {
+  "ats": "ashby",
+  "slug": "eloquentai"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "bitmovin"
+ },
+ {
+  "ats": "ashby",
+  "slug": "classdojo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "promise"
+ },
+ {
+  "ats": "ashby",
+  "slug": "titan"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "recidiviz"
+ },
+ {
+  "ats": "ashby",
+  "slug": "phoenix"
+ },
+ {
+  "ats": "ashby",
+  "slug": "infisical"
+ },
+ {
+  "ats": "lever",
+  "slug": "prosper"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "spaceium"
+ },
+ {
+  "ats": "ashby",
+  "slug": "conveo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "morpho"
+ },
+ {
+  "ats": "ashby",
+  "slug": "relling"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "juno"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "givecampus"
+ },
+ {
+  "ats": "lever",
+  "slug": "multiplylabs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "spellbrush"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vori"
+ },
+ {
+  "ats": "ashby",
+  "slug": "blissway"
+ },
+ {
+  "ats": "ashby",
+  "slug": "humaans"
+ },
+ {
+  "ats": "ashby",
+  "slug": "topline-pro"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rivia"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "attain"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vooma"
+ },
+ {
+  "ats": "ashby",
+  "slug": "verahealth"
+ },
+ {
+  "ats": "ashby",
+  "slug": "auctor"
+ },
+ {
+  "ats": "ashby",
+  "slug": "circuithub"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ycombinator"
+ },
+ {
+  "ats": "ashby",
+  "slug": "duffel"
+ },
+ {
+  "ats": "lever",
+  "slug": "handoff"
+ },
+ {
+  "ats": "ashby",
+  "slug": "jiga"
+ },
+ {
+  "ats": "ashby",
+  "slug": "agave"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cinder"
+ },
+ {
+  "ats": "ashby",
+  "slug": "litellm"
+ },
+ {
+  "ats": "ashby",
+  "slug": "elyos"
+ },
+ {
+  "ats": "ashby",
+  "slug": "raindrop"
+ },
+ {
+  "ats": "ashby",
+  "slug": "circleback"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brighterway"
+ },
+ {
+  "ats": "ashby",
+  "slug": "simple-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "claim-health"
+ },
+ {
+  "ats": "ashby",
+  "slug": "halluminate"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "groww"
+ },
+ {
+  "ats": "ashby",
+  "slug": "moderntreasury"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dyneti"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ditto"
+ },
+ {
+  "ats": "ashby",
+  "slug": "stable"
+ },
+ {
+  "ats": "ashby",
+  "slug": "atob"
+ },
+ {
+  "ats": "ashby",
+  "slug": "parallel-bio"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hyperbound"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fleetworks"
+ },
+ {
+  "ats": "ashby",
+  "slug": "safetykit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "langdock"
+ },
+ {
+  "ats": "ashby",
+  "slug": "furtherai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "abundant"
+ },
+ {
+  "ats": "ashby",
+  "slug": "solidroad"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mercura"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lapel"
+ },
+ {
+  "ats": "ashby",
+  "slug": "agentmail"
+ },
+ {
+  "ats": "ashby",
+  "slug": "9-mothers"
+ },
+ {
+  "ats": "ashby",
+  "slug": "influxdata"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mutiny"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bunkerhillhealth"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "generalproximity"
+ },
+ {
+  "ats": "ashby",
+  "slug": "atomic"
+ },
+ {
+  "ats": "ashby",
+  "slug": "flint"
+ },
+ {
+  "ats": "ashby",
+  "slug": "arketa"
+ },
+ {
+  "ats": "lever",
+  "slug": "finch"
+ },
+ {
+  "ats": "ashby",
+  "slug": "anima"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kodex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "posh"
+ },
+ {
+  "ats": "ashby",
+  "slug": "stream"
+ },
+ {
+  "ats": "ashby",
+  "slug": "aurelian"
+ },
+ {
+  "ats": "ashby",
+  "slug": "nango"
+ },
+ {
+  "ats": "ashby",
+  "slug": "escape"
+ },
+ {
+  "ats": "ashby",
+  "slug": "anthrogen"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dataleap"
+ },
+ {
+  "ats": "lever",
+  "slug": "unusual"
+ },
+ {
+  "ats": "ashby",
+  "slug": "salespatriot"
+ },
+ {
+  "ats": "lever",
+  "slug": "bloom"
+ },
+ {
+  "ats": "ashby",
+  "slug": "comena"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reacher"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "burnt"
+ },
+ {
+  "ats": "ashby",
+  "slug": "diligencesquared"
+ },
+ {
+  "ats": "ashby",
+  "slug": "snapmagic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "novacredit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "prelim"
+ },
+ {
+  "ats": "ashby",
+  "slug": "nomic"
+ },
+ {
+  "ats": "lever",
+  "slug": "doola"
+ },
+ {
+  "ats": "ashby",
+  "slug": "notabene"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ready"
+ },
+ {
+  "ats": "ashby",
+  "slug": "glimpse"
+ },
+ {
+  "ats": "ashby",
+  "slug": "axle-health"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "beam"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cambio"
+ },
+ {
+  "ats": "ashby",
+  "slug": "magicpatterns"
+ },
+ {
+  "ats": "ashby",
+  "slug": "concourse"
+ },
+ {
+  "ats": "ashby",
+  "slug": "terminal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sola"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sweep"
+ },
+ {
+  "ats": "ashby",
+  "slug": "paradigm"
+ },
+ {
+  "ats": "ashby",
+  "slug": "greenboard"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clarion"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tamarindbio"
+ },
+ {
+  "ats": "ashby",
+  "slug": "substrate"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "osmosis"
+ },
+ {
+  "ats": "ashby",
+  "slug": "finto"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sf-tensor"
+ },
+ {
+  "ats": "ashby",
+  "slug": "asimov"
+ },
+ {
+  "ats": "ashby",
+  "slug": "beyondreachlabs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "parameter"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cardboard"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dispatch"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sift"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "lob"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "tempo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reach"
+ },
+ {
+  "ats": "lever",
+  "slug": "people-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "wonderly"
+ },
+ {
+  "ats": "ashby",
+  "slug": "popl"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "prospa"
+ },
+ {
+  "ats": "ashby",
+  "slug": "zensors"
+ },
+ {
+  "ats": "ashby",
+  "slug": "meticulous"
+ },
+ {
+  "ats": "ashby",
+  "slug": "invert"
+ },
+ {
+  "ats": "ashby",
+  "slug": "complete"
+ },
+ {
+  "ats": "ashby",
+  "slug": "realitydefender"
+ },
+ {
+  "ats": "ashby",
+  "slug": "julius"
+ },
+ {
+  "ats": "ashby",
+  "slug": "thera"
+ },
+ {
+  "ats": "ashby",
+  "slug": "automat"
+ },
+ {
+  "ats": "ashby",
+  "slug": "artie"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "diligent"
+ },
+ {
+  "ats": "ashby",
+  "slug": "casca"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brettonai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "shadeform"
+ },
+ {
+  "ats": "ashby",
+  "slug": "healthtech-1"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brainbaselabs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dodo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "zeit-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "usul"
+ },
+ {
+  "ats": "lever",
+  "slug": "text"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lance"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cambly"
+ },
+ {
+  "ats": "ashby",
+  "slug": "accord"
+ },
+ {
+  "ats": "ashby",
+  "slug": "benepass"
+ },
+ {
+  "ats": "ashby",
+  "slug": "recall"
+ },
+ {
+  "ats": "ashby",
+  "slug": "authzed"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "albedo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "spruceid"
+ },
+ {
+  "ats": "ashby",
+  "slug": "greatquestion"
+ },
+ {
+  "ats": "ashby",
+  "slug": "enode"
+ },
+ {
+  "ats": "ashby",
+  "slug": "double"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fleek"
+ },
+ {
+  "ats": "ashby",
+  "slug": "blee"
+ },
+ {
+  "ats": "ashby",
+  "slug": "credal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kivo-health"
+ },
+ {
+  "ats": "ashby",
+  "slug": "electricair"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pure"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pivotrobotics"
+ },
+ {
+  "ats": "ashby",
+  "slug": "paradigmai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "offdeal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "artosai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mosaic"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "orbitaloperations"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sim"
+ },
+ {
+  "ats": "ashby",
+  "slug": "interfere"
+ },
+ {
+  "ats": "ashby",
+  "slug": "veritus"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bolna"
+ },
+ {
+  "ats": "ashby",
+  "slug": "generalastronautics"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "limrun"
+ },
+ {
+  "ats": "ashby",
+  "slug": "marble"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mednet"
+ },
+ {
+  "ats": "ashby",
+  "slug": "upcodes"
+ },
+ {
+  "ats": "ashby",
+  "slug": "assembly"
+ },
+ {
+  "ats": "ashby",
+  "slug": "probablygenetic"
+ },
+ {
+  "ats": "lever",
+  "slug": "zippi"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ello"
+ },
+ {
+  "ats": "ashby",
+  "slug": "datafold"
+ },
+ {
+  "ats": "ashby",
+  "slug": "kingdom"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hotplate"
+ },
+ {
+  "ats": "ashby",
+  "slug": "liveflow"
+ },
+ {
+  "ats": "lever",
+  "slug": "epsilon3"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "niraenergy"
+ },
+ {
+  "ats": "ashby",
+  "slug": "formance"
+ },
+ {
+  "ats": "ashby",
+  "slug": "happl"
+ },
+ {
+  "ats": "ashby",
+  "slug": "eventual"
+ },
+ {
+  "ats": "lever",
+  "slug": "twodots"
+ },
+ {
+  "ats": "ashby",
+  "slug": "provision"
+ },
+ {
+  "ats": "ashby",
+  "slug": "knowtex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cosine"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vector"
+ },
+ {
+  "ats": "ashby",
+  "slug": "decodahealth"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fortuna-health"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "morph"
+ },
+ {
+  "ats": "ashby",
+  "slug": "opencall"
+ },
+ {
+  "ats": "ashby",
+  "slug": "finny"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bild-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "chestnut"
+ },
+ {
+  "ats": "ashby",
+  "slug": "avallon"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dedalus-labs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fernstone"
+ },
+ {
+  "ats": "ashby",
+  "slug": "polymath"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brumby"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "guild"
+ },
+ {
+  "ats": "lever",
+  "slug": "thunkable"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "legalist"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "postscript"
+ },
+ {
+  "ats": "ashby",
+  "slug": "golinks"
+ },
+ {
+  "ats": "ashby",
+  "slug": "caribou"
+ },
+ {
+  "ats": "lever",
+  "slug": "voltalabs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "freshpaint"
+ },
+ {
+  "ats": "ashby",
+  "slug": "deepnote"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "haven"
+ },
+ {
+  "ats": "ashby",
+  "slug": "belvo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "herondata"
+ },
+ {
+  "ats": "ashby",
+  "slug": "flutterflow"
+ },
+ {
+  "ats": "ashby",
+  "slug": "svix"
+ },
+ {
+  "ats": "ashby",
+  "slug": "serifhealth"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ekho"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "reflex"
+ },
+ {
+  "ats": "ashby",
+  "slug": "goveagle"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pirros"
+ },
+ {
+  "ats": "ashby",
+  "slug": "inkeep"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hockeystack"
+ },
+ {
+  "ats": "ashby",
+  "slug": "proofofhuman"
+ },
+ {
+  "ats": "ashby",
+  "slug": "andromedasurgical"
+ },
+ {
+  "ats": "ashby",
+  "slug": "nowadays"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "newton"
+ },
+ {
+  "ats": "ashby",
+  "slug": "spur"
+ },
+ {
+  "ats": "ashby",
+  "slug": "conductor"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ctgt"
+ },
+ {
+  "ats": "ashby",
+  "slug": "innate"
+ },
+ {
+  "ats": "ashby",
+  "slug": "infinite"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ambral"
+ },
+ {
+  "ats": "ashby",
+  "slug": "jeevyfabrication"
+ },
+ {
+  "ats": "ashby",
+  "slug": "idler"
+ },
+ {
+  "ats": "ashby",
+  "slug": "onerobot"
+ },
+ {
+  "ats": "ashby",
+  "slug": "stilta"
+ },
+ {
+  "ats": "lever",
+  "slug": "reachpower"
+ },
+ {
+  "ats": "ashby",
+  "slug": "castle"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "aon3d"
+ },
+ {
+  "ats": "ashby",
+  "slug": "up"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "modernhealth"
+ },
+ {
+  "ats": "lever",
+  "slug": "postera"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lightdash"
+ },
+ {
+  "ats": "lever",
+  "slug": "smartcuts"
+ },
+ {
+  "ats": "ashby",
+  "slug": "quicknode"
+ },
+ {
+  "ats": "ashby",
+  "slug": "slope"
+ },
+ {
+  "ats": "ashby",
+  "slug": "replo"
+ },
+ {
+  "ats": "ashby",
+  "slug": "oneschema"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "imt"
+ },
+ {
+  "ats": "ashby",
+  "slug": "govdash"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rollstack"
+ },
+ {
+  "ats": "ashby",
+  "slug": "relace"
+ },
+ {
+  "ats": "ashby",
+  "slug": "invopop"
+ },
+ {
+  "ats": "ashby",
+  "slug": "conduit"
+ },
+ {
+  "ats": "ashby",
+  "slug": "airgoods"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tekton-dynamics"
+ },
+ {
+  "ats": "ashby",
+  "slug": "arini"
+ },
+ {
+  "ats": "ashby",
+  "slug": "centralize"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reform"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ultra"
+ },
+ {
+  "ats": "ashby",
+  "slug": "domu"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clearly-ai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "capy"
+ },
+ {
+  "ats": "ashby",
+  "slug": "apolink"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reviserobotics"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mangodesk"
+ },
+ {
+  "ats": "ashby",
+  "slug": "answerthis"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pax-historia"
+ },
+ {
+  "ats": "ashby",
+  "slug": "klarify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "complir"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "picnicai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "onechronos"
+ },
+ {
+  "ats": "lever",
+  "slug": "biorender"
+ },
+ {
+  "ats": "ashby",
+  "slug": "runa"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "meruhealth"
+ },
+ {
+  "ats": "lever",
+  "slug": "sapling"
+ },
+ {
+  "ats": "ashby",
+  "slug": "atlas"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "pairteam"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vorticity"
+ },
+ {
+  "ats": "lever",
+  "slug": "bolster"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "dots"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rallyuxr"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tank-payments"
+ },
+ {
+  "ats": "ashby",
+  "slug": "aragorn"
+ },
+ {
+  "ats": "ashby",
+  "slug": "metal"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sweetspot"
+ },
+ {
+  "ats": "ashby",
+  "slug": "event-horizon-labs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tuesday-labs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "commodityai"
+ },
+ {
+  "ats": "ashby",
+  "slug": "offstream"
+ },
+ {
+  "ats": "ashby",
+  "slug": "thundercompute"
+ },
+ {
+  "ats": "ashby",
+  "slug": "autumn"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ryvn"
+ },
+ {
+  "ats": "ashby",
+  "slug": "flowtel"
+ },
+ {
+  "ats": "ashby",
+  "slug": "casco"
+ },
+ {
+  "ats": "ashby",
+  "slug": "bootloop"
+ },
+ {
+  "ats": "ashby",
+  "slug": "misolabs"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fleetline"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hypercubic"
+ },
+ {
+  "ats": "ashby",
+  "slug": "darwin"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tsenta"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tenor"
+ }
 ]

@@ -11,7 +11,7 @@ claude            # then type:  /onboard   and afterwards:  use the job-copilot 
 
 What happens:
 1. `/onboard` asks you questions and writes `profile.json` (stays on your machine, git-ignored).
-2. The agent searches ~340 startup / YC / a16z / big-tech boards live and shows a shortlist.
+2. The agent searches ~790 startup / YC / a16z / big-tech boards live and shows a shortlist.
 3. It drafts honest answers; you approve; it fills forms **in your own Chrome**, one at a time.
 4. After a week it shows applications sent vs replies, so you learn what actually works.
 
