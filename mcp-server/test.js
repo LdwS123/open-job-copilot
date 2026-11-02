@@ -16,3 +16,12 @@ test("normalise: lever + greenhouse + ashby shapes", () => {
   assert.equal(normalise("greenhouse", "x", { jobs: [{ title: "T", absolute_url: "u", location: { name: "Paris" } }] })[0].location, "Paris");
   assert.equal(normalise("ashby", "x", { jobs: [{ title: "T", jobUrl: "u", location: "Berlin", isRemote: true }] })[0].remote, true);
 });
+
+import { safeUrl } from "./lib.js";
+test("safeUrl: only https on ATS hosts", () => {
+  assert.ok(safeUrl("https://jobs.lever.co/acme/123"));
+  assert.equal(safeUrl("https://evil.example/apply"), null);
+  assert.equal(safeUrl("http://jobs.lever.co/x"), null);
+  assert.equal(safeUrl("https://jobs.lever.co@evil.example/x"), null);
+  assert.equal(safeUrl("javascript:alert(1)"), null);
+});
