@@ -25,11 +25,10 @@ ALLOWED_HOSTS = {"jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenho
 
 def safe_url(u):
     """Posting data comes from third parties: accept only https URLs on the ATS' own domains."""
-    try:
-        p = urllib.parse.urlparse(u or "")
-    except Exception:
+    u = u or ""
+    if not re.fullmatch(r"https://[A-Za-z0-9.-]+/[A-Za-z0-9._~%/?=&#:+-]*", u):  # no whitespace, <, >, |, userinfo
         return None
-    return u if p.scheme == "https" and p.hostname in ALLOWED_HOSTS and not p.username else None
+    return u if urllib.parse.urlparse(u).hostname in ALLOWED_HOSTS else None
 
 def get(u):
     try:

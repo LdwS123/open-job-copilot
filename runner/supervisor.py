@@ -29,11 +29,16 @@ ALLOWED_HOSTS = {"jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenho
 
 def clean(x, n=120):
     """Queue text originates from third-party job boards: strip control chars / newlines, cap length."""
-    return re.sub(r"[^\x20-\x7E\u00A0-\uFFFF]+", " ", str(x)).replace("|", "/").strip()[:n]
+    return re.sub(r"[^\x20-\x7E\u00A0-\uFFFF]+", " ", str(x)).replace("|", "/").replace("<", "(").replace(">", ")").strip()[:n]
+
+URL_RE = re.compile(r"https://[A-Za-z0-9.-]+/[A-Za-z0-9._~%/?=&#:+-]*")
 
 def ok_url(u):
-    p = urllib.parse.urlparse(str(u))
-    return p.scheme == "https" and p.hostname in ALLOWED_HOSTS and not p.username
+    """Strict shape first (no whitespace, <, >, |, userinfo, control chars), then the host allowlist."""
+    u = str(u)
+    if not URL_RE.fullmatch(u):
+        return False
+    return urllib.parse.urlparse(u).hostname in ALLOWED_HOSTS
 
 def pop_queue(n=20):
     try:
