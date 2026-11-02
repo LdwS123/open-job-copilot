@@ -16,6 +16,12 @@ const ENDPOINTS = {
 
 export const SUPPORTED_ATS = Object.keys(ENDPOINTS);
 
+const ALLOWED_HOSTS = new Set(["jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenhouse.io", "job-boards.eu.greenhouse.io", "jobs.lever.co", "jobs.eu.lever.co"]);
+/** Posting data is third-party: only return https URLs on the ATS' own hosts. */
+export function safeUrl(u) {
+  try { const p = new URL(u); return p.protocol === "https:" && ALLOWED_HOSTS.has(p.hostname) && !p.username ? p.href : null; } catch { return null; }
+}
+
 export function normalise(ats, slug, d) {
   if (ats === "ashby")
     return (d?.jobs || []).map((j) => ({
@@ -28,7 +34,8 @@ export function normalise(ats, slug, d) {
     return (d?.jobs || []).map((j) => ({
       company: slug, ats, title: j.title || "", location: j.location?.name || "",
       remote: /remote/i.test(j.location?.name || ""),
-      url: j.absolute_url, published: j.updated_at || null, department: null,
+      url: j.id ? `https://boards.greenhouse.io/${slug}/jobs/${j.id}` : null, // canonical, never the company-controlled absolute_url
+      published: j.updated_at || null, department: null,
     }));
   return (Array.isArray(d) ? d : []).map((j) => ({
     company: slug, ats, title: j.text || "", location: j.categories?.location || "",
@@ -48,7 +55,7 @@ export async function fetchBoard(ats, slug) {
   if (hit && Date.now() - hit.t < TTL) return hit.jobs;
   const r = await fetch(ENDPOINTS[ats](slug), { headers: UA, signal: AbortSignal.timeout(15000) });
   if (!r.ok) return [];
-  const jobs = normalise(ats, slug, await r.json()).filter((j) => j.url);
+  const jobs = normalise(ats, slug, await r.json()).map((j) => ({ ...j, url: safeUrl(j.url) })).filter((j) => j.url);
   cache.set(key, { t: Date.now(), jobs });
   return jobs;
 }

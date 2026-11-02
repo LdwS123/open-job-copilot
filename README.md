@@ -63,6 +63,7 @@ one application per company, only *confirmed* submissions are counted.
   More parallel agents burn quota faster, they don't multiply results.
 - Many forms (captcha, account wall, custom widgets) can't be completed automatically; the agent skips and reports.
 - Volume is not a strategy by itself. Tailor your profile, apply where you truly fit, answer recruiters fast.
+- Posting titles, locations and URLs come from third-party boards and are treated as untrusted: URLs are restricted to the ATS hosts, queue text is sanitised and fenced, and the agent prompt forbids following instructions found in postings. For extra safety run the agents in a dedicated Chrome profile that has no other sensitive logins.
 - Respect each site's terms and rate limits. This project only reads public JSON endpoints.
 
 ## Privacy

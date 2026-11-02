@@ -18,6 +18,9 @@ function tier(title, loc) {
   return 0;
 }
 
+const HOSTS = new Set(["jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenhouse.io", "job-boards.eu.greenhouse.io", "jobs.lever.co", "jobs.eu.lever.co"]);
+function safeUrl(u) { try { const p = new URL(u); return p.protocol === "https:" && HOSTS.has(p.hostname) && !p.username ? p.href : null; } catch { return null; } }
+
 async function fetchBoard(ats, slug) {
   const urls = {
     ashby: `https://api.ashbyhq.com/posting-api/job-board/${slug}`,
@@ -27,9 +30,9 @@ async function fetchBoard(ats, slug) {
   const r = await fetch(urls[ats], { headers: { "User-Agent": "Mozilla/5.0" } });
   if (!r.ok) return [];
   const d = await r.json();
-  if (ats === "ashby") return (d.jobs || []).map(j => ({ title: j.title || "", loc: j.location || "", url: j.jobUrl || j.applyUrl }));
-  if (ats === "greenhouse") return (d.jobs || []).map(j => ({ title: j.title || "", loc: (j.location || {}).name || "", url: j.absolute_url }));
-  return (Array.isArray(d) ? d : []).map(j => ({ title: j.text || "", loc: (j.categories || {}).location || "", url: j.hostedUrl }));
+  if (ats === "ashby") return (d.jobs || []).map(j => ({ title: j.title || "", loc: j.location || "", url: safeUrl(j.jobUrl || j.applyUrl) }));
+  if (ats === "greenhouse") return (d.jobs || []).map(j => ({ title: j.title || "", loc: (j.location || {}).name || "", url: j.id ? `https://boards.greenhouse.io/${slug}/jobs/${j.id}` : null }));
+  return (Array.isArray(d) ? d : []).map(j => ({ title: j.text || "", loc: (j.categories || {}).location || "", url: safeUrl(j.hostedUrl) }));
 }
 
 async function scanShard(env) {
