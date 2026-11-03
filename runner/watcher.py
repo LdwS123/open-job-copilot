@@ -9,7 +9,7 @@ import json, re, time, os, urllib.request, urllib.parse, concurrent.futures as c
 HERE = os.path.dirname(os.path.abspath(__file__))
 QUEUE = os.path.join(HERE, "queue.json")
 CFG = json.load(open(os.path.join(HERE, "config.json")))
-BOARDS = json.load(open(os.path.join(HERE, "..", "boards.json")))
+BOARDS = json.load(open(os.path.join(HERE, "boards.json") if os.path.exists(os.path.join(HERE, "boards.json")) else os.path.join(HERE, "..", "boards.json")))
 rx = lambda k: re.compile(CFG[k], re.I)
 INC, EXC, BAD, T1, T2 = rx("include"), rx("exclude"), rx("bad_locations"), rx("tier1_locations"), rx("tier2_locations")
 UA = {"User-Agent": "open-job-copilot/0.1"}

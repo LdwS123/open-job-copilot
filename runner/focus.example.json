@@ -1,0 +1,11 @@
+[
+ "FAST DIRECT-APPLY SWEEP: no discovery phase. Pull fresh (<48h) postings from the Ashby, Greenhouse and Lever public APIs for 60+ company slugs in ONE javascript call, filter in code for your target titles and locations, drop already-applied companies, then apply one after another without pausing.",
+ "Ashby boards: https://api.ashbyhq.com/posting-api/job-board/<slug> for many slugs, target roles in your regions.",
+ "Greenhouse boards: https://boards-api.greenhouse.io/v1/boards/<slug>/jobs for many slugs.",
+ "Lever boards: https://api.lever.co/v0/postings/<slug>?mode=json for many slugs.",
+ "Teamtailor / Recruitee career pages of local companies (usually no account wall).",
+ "Workable (max 1 request per 2 s) and SmartRecruiters (api.smartrecruiters.com/v1/companies/<slug>/postings).",
+ "YC companies hiring (https://yc-oss.github.io/api/companies/hiring.json) and a16z / Sequoia / Index portfolio career pages.",
+ "AI labs and AI-native startups: go wide, any fitting role.",
+ "Company career pages found by WebSearch for your target roles and city."
+]

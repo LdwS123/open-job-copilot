@@ -9,3 +9,11 @@ config.json
 cv/
 *.pdf
 .env
+runner/live.log
+runner/prompt_s*.txt
+runner/apply_*
+runner/applied.txt
+runner/focus.json
+runner/STOP
+runner/*.out
+runner/__pycache__/
