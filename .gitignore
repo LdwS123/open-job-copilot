@@ -17,3 +17,5 @@ runner/focus.json
 runner/STOP
 runner/*.out
 runner/__pycache__/
+__pycache__/
+*.pyc

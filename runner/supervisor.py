@@ -21,21 +21,7 @@ TEMPLATE = open(os.path.join(B, 'prompt_template.md')).read()
 RULES = ''.join(open(os.path.join(B, 'rules', f)).read() + '\n' for f in ('speed_rules.md', 'human_voice.md'))
 FOCUS = json.load(open(os.path.join(B, 'focus.json' if os.path.exists(os.path.join(B, 'focus.json')) else 'focus.example.json')))
 
-ALLOWED_HOSTS = {"jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenhouse.io", "job-boards.eu.greenhouse.io",
-                 "jobs.lever.co", "jobs.eu.lever.co", "apply.workable.com", "careers.smartrecruiters.com", "jobs.smartrecruiters.com"}
-
-def clean(x, n=120):
-    """Queue/ledger text comes from third-party pages or agent output. NFKC-normalise, keep letters, digits, marks, spaces and
-    basic punctuation, neutralise delimiter characters."""
-    t = unicodedata.normalize("NFKC", str(x))
-    t = "".join(ch if (unicodedata.category(ch)[0] in "LNM" or ch == " " or ch in ".,;:!?'\"()[]&+-_/@#%") else " " for ch in t)
-    return re.sub(r"\s+", " ", t).replace("|", "/").replace("<", "(").replace(">", ")").strip()[:n]
-
-URL_RE = re.compile(r"https://[A-Za-z0-9.-]+/[A-Za-z0-9._~%/?=&#:+-]*")
-
-def ok_url(u):
-    u = str(u)
-    return bool(URL_RE.fullmatch(u)) and urllib.parse.urlparse(u).hostname in ALLOWED_HOSTS
+from sanitize import clean, ok_url, ALLOWED_HOSTS, URL_RE  # noqa: E402
 
 def fill(t): return re.sub(r'\{\{(\w+)\}\}', lambda m: str(PROFILE.get(m.group(1), m.group(0))), t)
 def note(m): open(LOG, 'a').write(time.strftime('%H:%M:%S') + ' [SUPERVISOR] ' + m + '\n')

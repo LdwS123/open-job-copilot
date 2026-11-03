@@ -1,0 +1,28 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: MCP server tests
+        working-directory: mcp-server
+        run: npm ci && npm test
+      - name: Runner tests (sanitiser)
+        run: python -I -m unittest discover -s tests -v
+      - name: Python syntax check
+        run: python -m py_compile runner/*.py
+      - name: boards.json is valid and has no duplicates
+        run: |
+          python - <<'PY'
+          import json
+          b = json.load(open("boards.json"))
+          rows = b if isinstance(b, list) else b.get("boards", b)
+          keys = [json.dumps(r, sort_keys=True) for r in rows]
+          assert len(keys) == len(set(keys)), "duplicate board entries"
+          print(len(keys), "boards ok")
+          PY
