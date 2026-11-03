@@ -13,6 +13,6 @@ for line in sys.stdin:
         for c in e.get('message', {}).get('content', []):
             if c.get('type') == 'text' and c['text'].strip(): log(c['text'].strip()[:400])
             elif c.get('type') == 'tool_use':
-                i = c.get('input', {}); log('> ' + c.get('name', '').replace('mcp__claude-in-chrome__', '') + ' ' + str(i.get('url') or i.get('action') or i.get('query') or '')[:140]  # never log typed 'text' values)
+                i = c.get('input', {}); log('> ' + c.get('name', '').replace('mcp__claude-in-chrome__', '') + ' ' + str(i.get('url') or i.get('action') or i.get('query') or '')[:140])  # never log typed 'text' values
     elif e.get('type') == 'result':
         final.write(e.get('result', '')); final.flush(); log('--- run finished ---')
