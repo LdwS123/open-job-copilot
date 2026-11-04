@@ -8,6 +8,12 @@ Fill `{{...}}` placeholders from `profile.json` before launching.
 Links: {{linkedin}}, {{github}}. CV file: {{cv_path}}.
 Story (use only this, never embellish): {{one_paragraph_truthful_story}}
 
+## What this person is looking for (from their own answers, follow it strictly)
+Target roles: {{target_roles}}. Level: {{seniority}}.
+Avoid: {{avoid_roles}}. Exception (accepted on purpose): {{special_programs}}.
+Preferred places: {{preferred_locations}}. Only with sponsorship or a special program: {{other_locations}}.
+Willing to relocate within places where they are authorized: {{relocation}}.
+
 ## Non-negotiable rules
 1. **Truth only.** Never invent experience, employers, degrees, numbers, skills, or work authorization.
    If a posting requires something the person does not have, SKIP it and say why in the report.

@@ -1,8 +1,9 @@
 # Runner: nonstop application agents
 
 ```bash
-cp ../profile.example.json ../profile.json     # fill it in (git-ignored)
-cp config.example.json config.json             # target roles / locations
+python3 setup.py                               # asks who you are and WHAT YOU ARE LOOKING FOR (roles, level,
+                                               # what to avoid, places, authorization); writes profile.json + config.json (git-ignored)
+                                               # (or by hand: cp ../profile.example.json ../profile.json; cp config.example.json config.json)
 cp ../boards.json boards.json                  # optional local copy
 ./run_all.sh                                   # watcher + supervisor + caffeinate
 touch STOP                                     # stops the supervisor
