@@ -106,7 +106,7 @@ company, and only *confirmed* submissions are counted.
 - Applying runs in *your* browser with *your* sessions. It is bounded by your AI plan's usage limits, not by CPU.
   More parallel agents burn quota faster, they don't multiply results.
 - Many forms (captcha, account wall, custom widgets) can't be completed automatically; the agent skips and reports.
-- Volume is not a strategy by itself. Tailor your profile, apply where you truly fit, answer recruiters fast.
+- Volume is not a strategy by itself. The runner's [`ats_tailoring.md`](runner/rules/ats_tailoring.md) rule makes every agent mirror each posting's title, keywords and location in a truthful, per-offer resume. Tailor your profile, apply where you truly fit, answer recruiters fast.
 - Respect each site's terms and rate limits. This project only reads public JSON endpoints.
 
 ### Security model

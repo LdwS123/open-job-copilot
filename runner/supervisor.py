@@ -18,7 +18,7 @@ LOG = os.path.join(B, 'live.log')
 MAXPAR = int(os.environ.get('MAXPAR', '4'))
 PROFILE = json.load(open(os.path.join(B, '..', 'profile.json')))
 TEMPLATE = open(os.path.join(B, 'prompt_template.md')).read()
-RULES = ''.join(open(os.path.join(B, 'rules', f)).read() + '\n' for f in ('speed_rules.md', 'human_voice.md'))
+RULES = ''.join(open(os.path.join(B, 'rules', f)).read() + '\n' for f in ('speed_rules.md', 'human_voice.md', 'ats_tailoring.md'))
 FOCUS = json.load(open(os.path.join(B, 'focus.json' if os.path.exists(os.path.join(B, 'focus.json')) else 'focus.example.json')))
 
 from sanitize import clean, ok_url, ALLOWED_HOSTS, URL_RE  # noqa: E402
