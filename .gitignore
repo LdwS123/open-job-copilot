@@ -19,3 +19,10 @@ runner/*.out
 runner/__pycache__/
 __pycache__/
 *.pyc
+cv_data.json
+runner/ats_check_report.md
+runner/audit_report.md
+runner/launch_offsets.json
+runner/stop_after_result.txt
+runner/audit_recent.txt
+job-copilot-cv/

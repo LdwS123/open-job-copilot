@@ -1,0 +1,62 @@
+{
+  "_comment": "Copy to cv_data.json (git-ignored) and replace EVERYTHING with your own TRUE facts. Never add a skill, number, title or date you cannot defend in an interview.",
+  "name": "Ada Example",
+  "city": "Paris",
+  "country": "France",
+  "phone": "+33 6 00 00 00 00",
+  "email": "ada@example.com",
+  "page_size": "A4",
+  "output_dir": "~/job-copilot-cv",
+  "links": [
+    {"label": "linkedin.com/in/ada-example", "url": "https://www.linkedin.com/in/ada-example"},
+    {"label": "github.com/ada-example", "url": "https://github.com/ada-example"}
+  ],
+  "EN": {
+    "headings": {"exp": "PROFESSIONAL EXPERIENCE", "edu": "EDUCATION", "skills": "SKILLS & CERTIFICATIONS", "add": "LEADERSHIP & ADDITIONAL"},
+    "core": "Two or three TRUE sentences with your strongest numbers (same facts in every variant).",
+    "experience": [
+      {"role": "Business Developer", "dates": "Jan 2025 – Present", "company": "Example Corp — B2B software — Paris, France",
+       "bullets": ["Opened 12 new B2B accounts through outbound prospecting (HubSpot CRM).",
+                   "Built the pitch deck used by the whole sales team."]},
+      {"role": "Sales Intern (internship)", "dates": "Jun 2024 – Dec 2024", "company": "Sample SAS — Lyon, France",
+       "bullets": ["Qualified 150+ inbound leads for the account executives."]},
+      {"role": "Customer Support Agent", "dates": "Sep 2023 – May 2024", "company": "Demo Ltd — Remote",
+       "bullets": ["Answered 40+ tickets a day with a 96% satisfaction score."]}
+    ],
+    "education": [
+      {"school": "Example University", "degree": "Master in Management", "dates": "2022 – 2024"},
+      {"school": "Sample College", "degree": "Bachelor's Degree in Economics", "dates": "2019 – 2022"}
+    ],
+    "skills": {
+      "sales": "Sales & Business Development: Outbound Prospecting, Pipeline Management (HubSpot CRM), Lead Qualification",
+      "tools": "Tools: HubSpot, Google Sheets (advanced), Notion"
+    },
+    "certifications": "Certifications: HubSpot Inbound Sales (2024)",
+    "languages": "English (full professional), French (native)",
+    "additional": [
+      {"role": "Founder", "dates": "Mar 2024 – Present", "company": "Side project — newsletter", "bullets": ["Grew a newsletter to 1,200 subscribers."]}
+    ]
+  },
+  "families": {
+    "sdr_bdr": {
+      "skills": ["sales", "tools"],
+      "EN": {"title": "Sales Development Representative | Outbound | Pipeline Generation",
+             "lead": "Sales development professional.",
+             "tail": "Seeking SDR / BDR roles: prospecting, qualification and pipeline generation."}
+    },
+    "account_manager": {
+      "skills": ["sales", "tools"],
+      "EN": {"title": "Account Management | Client Relationships | B2B",
+             "lead": "Business-development professional with client-facing experience.",
+             "tail": "Seeking junior Account Manager roles in B2B tech."}
+    }
+  },
+  "true_skills": [
+    {"canon": "outbound", "EN": "Outbound Prospecting", "synonyms": ["outbound", "prospecting", "outreach", "lead generation", "cold email"]},
+    {"canon": "qualification", "EN": "Lead Qualification", "synonyms": ["qualification", "lead qualification", "qualifying leads"]},
+    {"canon": "pipeline", "EN": "Pipeline Management", "synonyms": ["pipeline", "pipeline management", "pipeline generation"]},
+    {"canon": "hubspot", "EN": "HubSpot CRM", "synonyms": ["hubspot", "hubspot crm"]},
+    {"canon": "crm", "EN": "CRM", "synonyms": ["crm", "crm tools"]},
+    {"canon": "sheets", "EN": "Google Sheets (advanced)", "synonyms": ["google sheets", "spreadsheets", "excel"]}
+  ]
+}

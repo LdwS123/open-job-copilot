@@ -106,7 +106,7 @@ company, and only *confirmed* submissions are counted.
 - Applying runs in *your* browser with *your* sessions. It is bounded by your AI plan's usage limits, not by CPU.
   More parallel agents burn quota faster, they don't multiply results.
 - Many forms (captcha, account wall, custom widgets) can't be completed automatically; the agent skips and reports.
-- Volume is not a strategy by itself. The runner's [`ats_tailoring.md`](runner/rules/ats_tailoring.md) rule makes every agent mirror each posting's title, keywords and location in a truthful, per-offer resume. Tailor your profile, apply where you truly fit, answer recruiters fast.
+- Volume is not a strategy by itself. The runner generates a **tailored, ATS-checked one-page CV per posting** from your own true facts (`cv_data.json`: `cvgen.py`, `tailor.py`, `ats_check.py`, see [runner/README](runner/README.md#one-tailored-ats-safe-cv-per-application-works-for-anyone)), and a hard gate ([`ats_tailoring.md`](runner/rules/ats_tailoring.md)) blocks any submit without a tailored upload. Tailor your profile, apply where you truly fit, answer recruiters fast.
 - Respect each site's terms and rate limits. This project only reads public JSON endpoints.
 
 ### Security model
@@ -129,7 +129,7 @@ Contributions welcome, especially new boards and ATS adapters: [CONTRIBUTING.md]
 
 ## Privacy
 
-`profile.json`, `config.json`, `queue.json`, CVs, logs and tokens are git-ignored. Never commit personal data.
+`profile.json`, `config.json`, `cv_data.json`, `queue.json`, CVs, logs and tokens are git-ignored. Never commit personal data.
 
 ## License
 
