@@ -56,8 +56,9 @@ def ledger():
 def queue_block(n=15):
     try: d = json.load(open(os.path.join(B, 'queue.json')))
     except Exception: return ''
-    done = {x.lower() for x in ledger()}; pick, seen = [], set()
-    for x in sorted((x for x in d['items'] if not x['dispatched']), key=lambda x: (x['tier'], -x['found'])):
+    done = {x.lower() for x in ledger()}; pick, seen = [], set(); now = time.time()
+    # hard freshness cap: only postings the watcher first saw less than 24 h ago, newest first
+    for x in sorted((x for x in d['items'] if not x['dispatched'] and now - x['found'] <= 24 * 3600), key=lambda x: (x['tier'], -x['found'])):
         c = x['company'].lower()
         if c in done or c in seen or not ok_url(x['url']): continue
         pick.append(x); seen.add(c)
@@ -66,7 +67,7 @@ def queue_block(n=15):
     for x in d['items']:
         if x['url'] in keys: x['dispatched'] = True
     json.dump(d, open(os.path.join(B, 'queue.json'), 'w'))
-    return ''.join(f"- {clean(x['company'], 40)} | {clean(x['title'])} | {clean(x['location'])} | {x['url']}\n" for x in pick)
+    return ''.join(f"- FRESH {int((now - x['found']) / 3600)}h | {clean(x['company'], 40)} | {clean(x['title'])} | {clean(x['location'])} | {x['url']}\n" for x in pick)
 
 i = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 note(f'started at index {i}, {MAXPAR} agents in parallel')

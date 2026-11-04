@@ -1,5 +1,5 @@
 [
- "FAST DIRECT-APPLY SWEEP: no discovery phase. Pull fresh (<48h) postings from the Ashby, Greenhouse and Lever public APIs for 60+ company slugs in ONE javascript call, filter in code for your target titles and locations, drop already-applied companies, then apply one after another without pausing.",
+ "FAST DIRECT-APPLY SWEEP: no discovery phase. Pull fresh (<24h, ideally <12h) postings from the Ashby, Greenhouse and Lever public APIs for 60+ company slugs in ONE javascript call, filter in code for your target titles and locations, drop already-applied companies, then apply one after another without pausing.",
  "Ashby boards: https://api.ashbyhq.com/posting-api/job-board/<slug> for many slugs, target roles in your regions.",
  "Greenhouse boards: https://boards-api.greenhouse.io/v1/boards/<slug>/jobs for many slugs.",
  "Lever boards: https://api.lever.co/v0/postings/<slug>?mode=json for many slugs.",

@@ -94,7 +94,7 @@ What the supervisor does for you ([details](runner/README.md)):
 - builds every prompt from your profile, the rules in [`runner/rules/`](runner/rules) and a rotating focus
   (startups, DACH, South Europe, AI labs, fast direct-apply sweeps...)
 - keeps a **duplicate ledger**, so one company gets one application, even across restarts
-- feeds a **freshness-ordered queue**: postings under 24h first, then 48h
+- feeds a **freshness-ordered queue**: only postings under 24h (under 12h first), nothing older
 - writes a readable `live.log` and never logs the text typed into forms
 
 **Guardrails baked into the prompt** ([`prompt_template.md`](runner/prompt_template.md)): truth only, your real
